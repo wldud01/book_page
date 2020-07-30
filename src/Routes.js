@@ -9,7 +9,6 @@ import Join from'./Join';
 import Search from './Search';
 
 
-
 export default () => (
     <Router>
         <Header />
