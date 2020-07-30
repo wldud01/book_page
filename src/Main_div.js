@@ -37,19 +37,19 @@ class Main extends Component {
             </div>
             <div id = "search">
                 <form>
-                        <input type = "text"
-                                title="검색"
-                                name = "booktitle"
-                                value = {book}
-                                onChange = {this.handleChange}
-                                className = "search_box"
-                                placeholder="검색어를 입력하세요..."
-                        />
-                        <button type ="submit"
-                                className="search_button"
-                             
-                                ><h3>검색</h3>
-                        </button>
+                    <input type = "text"
+                            title="검색"
+                            name = "booktitle"
+                            value = {book}
+                            onChange = {this.handleChange}
+                            className = "search_box"
+                            placeholder="검색어를 입력하세요..."
+                    />
+                    <button type ="submit"
+                            className="search_button"
+                            
+                            ><h3>검색</h3>
+                    </button>
                 </form>
             </div>
             <div id = "sub_script">

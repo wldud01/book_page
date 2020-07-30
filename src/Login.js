@@ -1,6 +1,6 @@
 import React from 'react';
 import './Login.css';
-import './Mainpage.css';
+
 import './Join';
 import {Link} from 'react-router-dom';
 
