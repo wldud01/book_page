@@ -1,3 +1,4 @@
+@media only screen and (min-width: 600px) {
 .recommend{
     position: relative;
     width:1535px;
@@ -71,4 +72,64 @@
 }
 .Mp_search_text{
     position:absolute;
+}
+}
+@media only screen and (min-width: 1600px) {
+    .recommend{
+        position: relative;
+        width:116.5rem;
+        height:43px;
+    }
+    .recomend_site{
+        position: relative;
+        width:20%;
+        height:43px;
+        outline: 0px;
+        border:1px rgb(196, 196, 196) solid;
+        font-size: 9pt;
+        letter-spacing: 1.5px;
+        
+    }
+    .recomend_book{
+        position: relative;
+        width: 116.5rem;
+        height:160px;
+        background: rgba(49,49,49,0.9);
+    }
+    .main_result_space{
+        position: relative;
+        width:116.5rem;
+        height: 100%;
+    
+        margin-top: 155px;
+        background:#f9f9f9;
+    }
+    .Main_search_box{
+        position: relative;
+        width:116.5rem;
+        height:55px;
+    }
+    .Mp_search_box{
+        position:absolute;
+        outline:0px;
+        width:500px;
+        height:40px;
+        border:1px solid rgb(175, 175, 175);
+        border-radius: 15px;
+        margin-top:20px;
+        margin-left: 700px;
+        padding-left: 15px;   
+    }
+    #search_btn{
+        position: absolute;
+        background: white;
+        outline:0px;
+        border:0px solid;
+        font-size: 14px;
+        margin-top: 22px;
+        margin-left: 1155px;
+        border-radius: 15px;
+        width:50px;
+        height:38px;
+    }
 }
