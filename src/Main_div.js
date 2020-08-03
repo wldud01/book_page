@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Mainpage.css";
 import "./Logo.css";
-import Searchbar from "./Searchbar";
+import Searchbar from "./component/Searchbar";
 
 // const API_URL = "https://www.omdbapi.com/?s=man&apikey=4a3b711b"; // you should replace this with yours
 
@@ -37,8 +37,6 @@ const Main = () => {
       });
   };
 */
-  const search = () => {};
-
   return (
     <div className="main">
       <div className="Logo">

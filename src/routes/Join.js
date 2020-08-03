@@ -1,6 +1,6 @@
 import React from 'react';
-import './Login.css';
-import './Mainpage.css';
+import './join.css';
+import './intro.css';
 
 const Joinpage = () => {
     return(

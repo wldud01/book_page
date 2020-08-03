@@ -17,6 +17,17 @@
     font-size: 12pt;
     letter-spacing: 2px;
 }
+.nav_btn{
+    border:0px solid;
+    outline:0px;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 8pt;
+    cursor: pointer;
+    width:100%;
+}
+
 }
 @media only screen and (min-width: 1600px) {
     .Logo{

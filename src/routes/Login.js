@@ -1,6 +1,5 @@
 import React from 'react';
 import './Login.css';
-
 import './Join';
 import {Link} from 'react-router-dom';
 
@@ -14,7 +13,6 @@ const loginpage = () => {
             <Link to="/Join" id="entry">회원가입</Link>
             <a href="" id="find_id">아이디 찾기</a><a href="" id="find_password">비밀번호 찾기</a>
             </div>
-            
         </div>
     )
 }

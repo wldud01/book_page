@@ -1,6 +1,6 @@
 import React from 'react';
 import './Mainpage.css';
-import Routes from './Routes'
+import Routes from './routes/Routes'
 
 
 

@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, useRouteMatch } from "react-router-dom";
 
 const Searchbar = (props) => {
   const history = useHistory();
-  const [searchValue, setSearchValue] = useState("");
+  const [searchValue, setSearchValue] = useState(""); 
 
   const handleSearchInputChanges = (e) => {
-    setSearchValue(e.target.value);
+    setSearchValue(e.target.value);     
   };
 
-  const resetInputField = () => {
+  const resetInputField = () => {      
     setSearchValue("");
   };
 
@@ -27,17 +27,19 @@ const Searchbar = (props) => {
     resetInputField();
   };
 
+ 
+
   return (
     <form className="search">
       <input
-        value={searchValue}
+        value={searchValue}    // class로 쳤을 때 this.state.searchValue 
         onChange={handleSearchInputChanges}
         type="text"
         placeholder="검색어를 입력하세요..."
         className="search_box"
       />
       <button
-        onClick={callSearchFunction}
+        onClick={callSearchFunction} 
         type="submit"
         className="search_button"
       >

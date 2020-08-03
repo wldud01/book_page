@@ -1,18 +1,19 @@
 import React from "react";
-import "./Mainpage.css";
 import "./Logo.css";
 import "./Routes";
 import "./Search.css";
+
 import qs from "qs";
-import Searchbar from "./Searchbar";
-import crawling from "./scrapping";
+import Searchbar from "../component/Searchbar";
+import crawling from "../scrapping";
 
 const Search = (props) => {
+  /*
   const { book_title } = qs.parse(props.location.search, {
     ignoreQueryPrefix: true,
   });
   console.log(book_title);
-
+  */
   return (
     <div className="main">
       <div className="recommend">
@@ -20,7 +21,7 @@ const Search = (props) => {
         <button className="recomend_site">Yes24</button>
         <button className="recomend_site">알라딘</button>
         <button className="recomend_site">노란책</button>
-        <button className="recomend_site">교보문고</button>
+        <button className="recomend_site">Gmarket</button>
 
         <div className="recomend_book"></div>
       </div>

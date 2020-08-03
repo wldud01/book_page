@@ -1,0 +1,292 @@
+@media only screen and (min-width: 100px) {
+    *{
+        margin:0px;
+        font-family: '한컴 고딕';
+    }
+    
+    ul{
+        list-style:none;
+        border: 0px;
+        padding-left: 0px; padding-right: 0px;
+    }
+    a{
+        text-decoration: none;
+        outline:none;
+        color:rgb(255, 255, 255);
+        display: block;
+        height:38px;
+    }
+    li{
+        position: relative;
+        width:160px;
+        float:left;
+        text-align: center;
+        height:100%;
+        padding-top: 10px;
+    
+        letter-spacing: 2.5px;
+    
+    }
+    li:hover{
+        background-color: rgba(82, 56, 0, 0.8);
+        height:30px;
+        border:0px solid;
+        text-emphasis-color: white;
+    }
+    
+    .mainpage{
+        position: relative;
+        background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/14/books-1245690_1280.jpg);
+        width: 1535px;;
+        height:720px;
+        background-size:cover;
+    
+    
+        
+        
+    }
+    .background{
+        color:white;
+        position: absolute;
+        background: rgba(0,0,0,0.77);
+        height:720px;
+        width: 1535px;
+        background-size: cover;
+     
+        
+    }
+    .header{
+        position: relative;
+        background: repeat-x;
+        height:45px;
+        width:100%;
+    
+    }
+    .header ul{
+        position: absolute;
+        height: 100%;
+        display: flex;
+        right:5px;
+    }
+    .nav{
+        width:100%;
+        font-size:8pt;
+        position: absolute;
+        height:40px;
+        margin-top:5px;
+    }
+    .nav_text_color:hover{
+        color:rgb(241, 65, 65);
+    }
+    
+    #nav_Log{
+        color:rgb(241, 65, 65);
+    }
+    #nav_Log:hover{
+        color:white;
+    }
+    
+    
+    .main{
+        color:white;
+        position: absolute;
+        width:100%;
+        height:90%;
+        
+    }
+.recommend{
+    position: relative;
+    width:1535px;
+    height:35px;
+}
+.recomend_site{
+    position: relative;
+    width:20%;
+    height:35px;
+    outline: 0px;
+    border:1px rgb(196, 196, 196) solid;
+    font-size: 9pt;
+    letter-spacing: 1.5px;
+    
+}
+.recomend_site:hover{
+    background: rgb(197, 196, 196);
+    box-shadow:1px 1px 1px rgb(158, 158, 158) inset;
+}
+
+.recomend_book{
+    position: relative;
+    width: 1535px;
+    height:120px;
+    background: rgba(49,49,49,0.9);
+}
+
+.main_result_space{
+    position: relative;
+    width:1535px;
+    height: 100%;
+
+    margin-top: 120px;
+    background:#f9f9f9;
+}
+.Main_search_box{
+    position: relative;
+    width:100%;
+    height:55px;
+}
+
+.Main_search_box .search_box{
+    position:absolute;
+    outline:0px;
+    width:450px;
+    height:40px;
+    border:1px solid rgb(175, 175, 175);
+    border-radius: 15px;
+    margin-top:20px;
+   margin-left:550px;
+    padding-left: 15px;   
+}
+.Main_search_box .search_box:hover{
+    box-shadow:1.5px 1.5px 2px rgba(204, 204, 204, 0.9);
+}
+.Main_search_box .search_button{
+    position: absolute;
+    background: white;
+    color: rgba(49,49,49,0.9);
+    outline:0px;
+    border:0px solid;
+    font-size: 12px;
+    margin-top: 22px;
+    margin-left: 960px;
+    border-radius: 15px;
+    width:50px;
+    height:38px;
+}
+.search_button:hover{
+    cursor: pointer;
+
+}
+.Mp_search_text{
+    position:absolute;
+}
+}
+@media only screen and (min-width: 1609px) {
+    body{
+        position: relative;
+        background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/14/books-1245690_1280.jpg);
+        width:116.5rem;
+    }
+    #root{
+        color:white;
+        background: rgba(0,0,0,0.77);
+        background-size:initial;
+        width:116.5rem;
+    }
+
+    .mainpage{
+        width:116.5rem; 
+        height:50rem;
+    }
+    .background{
+        width: 116.5rem;
+        height:50rem;
+    }
+    .header{
+        position: relative;
+        background: repeat-x;
+        height:49px;
+        width:116.5rem;
+    
+    }
+    .header ul{
+        position: absolute;
+        height: 100%;
+        display: flex;
+        right:5px;
+    }
+    .nav{
+        width:116.5rem;
+        font-size:8pt;
+        position: absolute;
+        height:40px;
+        margin-top:6px;
+    }
+    .nav_text_color:hover{
+        color:rgb(241, 65, 65);
+    }
+    
+    #nav_Log{
+        color:rgb(241, 65, 65);
+    }
+    #nav_Log:hover{
+        color:white;
+    }
+    
+    
+    .main{
+        color:white;
+        position: absolute;
+        width:116.5rem;
+        height:90%;
+        
+    }
+
+    .recommend{
+        position: relative;
+        width:116.5rem;
+        height:43px;
+    }
+    .recomend_site{
+        position: relative;
+        width:20%;
+        height:43px;
+        outline: 0px;
+        border:1px rgb(196, 196, 196) solid;
+        font-size: 9pt;
+        letter-spacing: 1.5px;
+        
+    }
+    .recomend_book{
+        position: relative;
+        width: 116.5rem;
+        height:160px;
+        background: rgba(49,49,49,0.9);
+    }
+    .main_result_space{
+        position: relative;
+        width:116.5rem;
+        height: 100rem;
+    
+        margin-top: 155px;
+        background:#f9f9f9;
+    }
+    .Main_search_box{
+        position: relative;
+        width:116.5rem;
+        height:55px;
+    }
+    .Main_search_box .search_box{
+        position:absolute;
+        outline:0px;
+        width:500px;
+        height:40px;
+        border:1px solid rgb(175, 175, 175);
+        border-radius: 15px;
+        margin-top:20px;
+        margin-left: 700px;
+        padding-left: 15px;   
+    }
+    .Main_search_box .search_button{
+        position: absolute;
+        background: white;
+        color: rgba(49,49,49,0.9);
+        outline:0px;
+        border:0px solid;
+        font-size: 14px;
+        margin-top: 22px;
+        margin-left: 1155px;
+        border-radius: 15px;
+        width:50px;
+        height:38px;
+    }
+}
