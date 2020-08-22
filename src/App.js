@@ -3,10 +3,6 @@ import './Mainpage.css';
 import Routes from './routes/Routes'
 
 
-
-
-
-
 function App() {
   return (
     <div className ="mainpage">

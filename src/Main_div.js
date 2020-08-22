@@ -1,42 +1,9 @@
-import React, { useState, useEffect } from "react";
-import "./Mainpage.css";
-import "./Logo.css";
-import Searchbar from "./component/Searchbar";
-
-// const API_URL = "https://www.omdbapi.com/?s=man&apikey=4a3b711b"; // you should replace this with yours
+import React, { useState, useEffect } from 'react';
+import './Mainpage.css';
+import './Logo.css';
+import Searchbar from './component/Searchbar';
 
 const Main = () => {
-  //const [loading, setLoading] = useState(true);
-  //const [books, setBooks] = useState([]);
-  //const [errorMessage, setErrorMessage] = useState(null);
-
-  /*
-  useEffect(() => {
-    fetch(API_URL)
-      .then((response) => response.json())
-      .then((jsonResponse) => {
-        setBooks(jsonResponse.Search);
-        setLoading(false);
-      });
-  }, []);
-  */
-  /*
-  const search = (searchValue) => {
-    setLoading(true);
-    setErrorMessage(null);
-    fetch(`https://www.omdbapi.com/?s=${searchValue}&apikey=4a3b711b`)
-      .then((response) => response.json())
-      .then((jsonResponse) => {
-        if (jsonResponse.Response === "True") {
-          setMovies(jsonResponse.Search);
-          setLoading(false);
-        } else {
-          setErrorMessage(jsonResponse.Error);
-          setLoading(false);
-        }
-      });
-  };
-*/
   return (
     <div className="main">
       <div className="Logo">

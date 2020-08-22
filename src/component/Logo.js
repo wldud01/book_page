@@ -6,7 +6,7 @@ import { withRouter } from "react-router-dom";
 const Logo = ({history}) =>{
     return(
         <div className="header_Logo">
-            <button className="nav_btn" onClick = {()=>{history.push("/")}}>LoGo</button>
+            <button className="Logo_btn"  onClick = {()=>{history.push("/")}}>LoGo</button>
         </div>
     )
 };

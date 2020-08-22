@@ -16,38 +16,18 @@
         width:160px;
         float:left;
         height:100%;
-        padding-top: 10px;
+        padding-top: 5px;
         letter-spacing: 2.5px;
+        transition: 0.5s;
     
     }
     li:hover{
-        background-color: rgba(82, 56, 0, 0.8);
+        background-color: rgba(175, 175, 175, 0.7);
         height:30px;
         border:0px solid;
         text-emphasis-color: white;
     }
     
-    .mainpage{
-        position: relative;
-        background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/14/books-1245690_1280.jpg);
-        width: 1535px;;
-        height:720px;
-        background-size:cover;
-    
-    
-        
-        
-    }
-    .background{
-        color:white;
-        position: absolute;
-        background: rgba(0,0,0,0.77);
-        height:720px;
-        width: 1535px;
-        background-size: cover;
-     
-        
-    }
     .header{
         position: relative;
         background: repeat-x;
@@ -86,36 +66,18 @@
         font-size: 8pt;
         cursor: pointer;
         width:100%;
+        
     }
     
     
   }
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1609px) {
-    body{
-        position: relative;
-        background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/14/books-1245690_1280.jpg);
-        width:116.5rem;
-    }
-    #root{
-        color:white;
-        background: rgba(0,0,0,0.77);
-        background-size:initial;
-        width:116.5rem;
-    }
 
-    .mainpage{
-        width:116.5rem; 
-        height:50rem;
-    }
-    .background{
-        width: 116.5rem;
-        height:50rem;
-    }
     .header{
         position: relative;
         background: repeat-x;
-        height:49px;
+        height:51px;
         width:116.5rem;
     
     }
@@ -127,10 +89,9 @@
     }
     .nav{
         width:116.5rem;
-        font-size:8pt;
         position: absolute;
         height:40px;
-        margin-top:6px;
+        margin-top:8px;
     }
     .nav_text_color:hover{
         color:rgb(241, 65, 65);
@@ -142,9 +103,16 @@
     #nav_Log:hover{
         color:white;
     }
-    
-
-
+    .nav_btn{
+        border:0px solid;
+        outline:0px;
+        background-color: transparent;
+        color:rgb(255, 255, 255);
+        text-align: center;
+        font-size: 9pt;
+        cursor: pointer;
+        width:100%;
+    }
   }
 
 

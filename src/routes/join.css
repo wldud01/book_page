@@ -14,15 +14,7 @@
         width:100%;
         height:90%;
     }
-    .Log_space{
-        
-        
-        position: absolute;
-        width:40%;
-        height:95%;
-        left:450px;
     
-    }
     .Join_space{
         position: absolute;
         width:33%;
@@ -108,26 +100,22 @@
         width:116.5rem;
         height:45rem;
     }
-  #join_main{
-        background: #ffffff;
+    #join_main{
+        background: #f0efef;
         color:black;
         position: absolute;
-        width:100%;
-        height:45rem;
+        width:116.5rem;
+        height:70rem;
     }
- .Join_space{
+    
+    .Join_space{
         position: absolute;
-        background: #f0efef;
-        width:28%;
+        width:33%;
         height:80%;
-        left:42rem;
-        margin-top: 65px;
-        border:1.1px solid rgb(160, 160, 160);
-        border-radius: 3px;
-        
-    
+        left:43rem;
+        margin-top: 10rem; 
     }
-    
+ 
 
   }
 
